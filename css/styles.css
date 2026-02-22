@@ -345,7 +345,7 @@ img {
   height: 40px;
   background-color: #4d5ae5;
   border-radius: 50%;
-  color: #ffffff;
+  color: #f4f4fd;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -393,7 +393,10 @@ img {
 
 .portfolio-item:hover,
 .portfolio-item:focus-within {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-img {
@@ -522,7 +525,7 @@ img {
   align-items: center;
   justify-content: center;
 
-  color: #ffffff;
+  color: #f4f4fd;
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
